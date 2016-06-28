@@ -19,9 +19,11 @@
     "raw-loader": "^0.5.1"
   },
   "dependencies": {
+    "@kadira/react-storybook-addon-info": "^3.0.8",
     "@kadira/storybook-deployer": "^1.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "semantic-ui-css": "^2.2.1"
+    "semantic-ui-css": "^2.2.1",
+    "stardust": "^0.16.2"
   }
 }

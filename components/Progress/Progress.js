@@ -29,16 +29,15 @@ export default class Progress extends Component {
 
     return (
       <div className={progressWrappedClassName}>
-      <div className="bar" style={style}>
-        {progressLabel}
-      </div>
-
+        <div className="bar" style={style}>
+          {progressLabel}
+        </div>
       </div>
     );
   }
 }
 
-Progress.PropTypes = {
+Progress.propTypes = {
   completed: React.PropTypes.number.isRequired,
   className: React.PropTypes.string,
 
