@@ -39,8 +39,7 @@ export default class Progress extends Component {
 
 Progress.propTypes = {
   completed: React.PropTypes.number.isRequired,
-  className: React.PropTypes.string,
-
+  className: React.PropTypes.string
 };
 
 

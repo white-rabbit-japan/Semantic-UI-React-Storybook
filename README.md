@@ -1,11 +1,16 @@
 # Semantic-UI-React-Storybook
-Kadira Storybook for Semantic-UI React components 
+## Isolate Semantic-UI React Component Development with Hot Reloading
 
-[View this storybook](https://white-rabbit-japan.github.io/Semantic-UI-React-Storybook)
+A Kadira Storybook for Semantic-UI React components
 
-To run:
+![Semantic-UI React Storybook Screenshot](docs/progress_demo.png)
 
-npm install
-npm run storybook
+[View this storybook on GitHub Pages](https://white-rabbit-japan.github.io/Semantic-UI-React-Storybook)
 
-Open web browser to http://localhost:9001 to view storybook
+
+To run locally:
+
+`npm install`
+`npm run storybook`
+
+Open web browser to `http://localhost:9001`

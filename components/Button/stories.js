@@ -15,10 +15,22 @@ storiesOf('Button', module)
     'Standard',
     `
       A standard button
+      ~~~
+      import React, { Component } from 'react'
+      import { Button } from 'stardust'
+
+      export default class ButtonButtonExample extends Component {
+        render() {
+          return (
+            <Button>Get Started</Button>
+          )
+        }
+      }
+      ~~~
     `,
     () => (
 
-      <Button>Get Started</Button>
+      <Button onClick={action('click the button')}>Get Started</Button>
     ), {inline: true, propTables: [Button]})
 
   .addWithInfo(

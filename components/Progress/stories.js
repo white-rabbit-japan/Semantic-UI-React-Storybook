@@ -97,13 +97,10 @@ storiesOf('Progress Variations', module)
     `,
     () => (
       <Segment className="inverted">
-
-        <Progress completed={12} className="inverted"></Progress>
-
-        <Progress completed={100} className="inverted success"></Progress>
-        <Progress completed={100} className="inverted warning"></Progress>
+        <Progress completed={25} className="inverted"></Progress>
+        <Progress completed={50} className="inverted success"></Progress>
+        <Progress completed={75} className="inverted warning"></Progress>
         <Progress completed={100} className="inverted error "></Progress>
-
       </Segment>
 
     ), {inline: true, propTables: [Progress]})
