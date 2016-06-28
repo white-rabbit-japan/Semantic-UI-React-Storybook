@@ -1,6 +1,8 @@
 # Semantic-UI-React-Storybook
 Kadira Storybook for Semantic-UI React components 
 
+[View this storybook](https://white-rabbit-japan.github.io/Semantic-UI-React-Storybook)
+
 To run:
 
 npm install
