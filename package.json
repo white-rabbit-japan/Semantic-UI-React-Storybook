@@ -4,7 +4,8 @@
   "description": "Demo native react components built for the Semantic UI Framework",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 9001"
+    "storybook": "start-storybook -p 9001",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
     "raw-loader": "^0.5.1"
   },
   "dependencies": {
+    "@kadira/storybook-deployer": "^1.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "semantic-ui-css": "^2.2.1"
